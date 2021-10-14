@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Library</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="style/icon.png">
+    <link rel="stylesheet" href="style/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+        <div class="header-text">
+            <h1> Library</h1>
+          <!--  <p>"There is no friend as loyal as a book"</p>-->
+</div>
+        <div class="header-btn">
+             <button class="open-button" onclick="showForm()">Add </button>
+
+        </div>
+    </header>
+
+
+<form id="form1">
+  <label for="fname">Title: </label>
+  <input type="text" id="title" name="fname"><br><br>
+
+  <label for="lname">Author:</label>
+  <input type="text" id="author" name="lname"><br><br>
+
+  <label for="tname">Pages: </label>
+  <input type="text" id="pages" name="lname"><br><br>
+<label>Read?</label>
+  <input type="checkbox" id="read" name="fav_language" value="Read it?">
+<br><br>
+<label><button type="submit" id="btn">Submit</button></label>
+  </form>
+
+  <table id="table">
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Pages</th>
+      <th>Read
+      </th>
+      <th></th>
+    </tr>
+   
+<tbody id="book-list"></tbody>
+  </table>
+  <footer><div class="">
+
+  </div>
+  </footer>
+<script type="text/javascript" src="script3.js"></script>
+</body>
+</html>
