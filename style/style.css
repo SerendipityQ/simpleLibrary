@@ -11,6 +11,11 @@ body{
 
 }
 
+@media screen and (max-width: 600px) {
+  body{
+    background: white;
+  }
+}
 
 /*
 HEADER
@@ -62,7 +67,7 @@ background-position: top;
   font-weight: normal;
   padding-bottom: 1rem;
   align-items: : center;
-  color:white  !important;
+  color:white;
 	text-decoration: none;
   font-size: 2em;
   background:none;
